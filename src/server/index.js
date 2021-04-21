@@ -6,7 +6,7 @@ const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 
 const app = express()
-var textapi = new `${meaning-cloud}` ({
+var textapi = new meaningcloud ({
     application_key: process.env.API_KEY
   });
 
@@ -34,8 +34,8 @@ app.get('/', function (req, res) {
 })
 
 // designates what port the app will listen to for incoming requests
-app.listen(8080, function () {
-    console.log('Example app listening on port 8080!')
+app.listen(8081, function () {
+    console.log('Example app listening on port 8081!')
 })
 
 app.get('/test', function (req, res) {
