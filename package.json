@@ -1,5 +1,5 @@
 {
-  "name": "example-project",
+  "name": "evaluate-news-nlp",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,10 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ahmed Sayed",
   "license": "ISC",
-  "description": "",
+  "description": "evaluate-news-nlp udacity-first-project",
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "meaning-cloud": "^1.1.10",
