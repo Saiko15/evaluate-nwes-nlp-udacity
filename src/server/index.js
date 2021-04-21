@@ -6,14 +6,12 @@ const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 
 const app = express()
-var textapi = new MeaningCloud ({
+var textapi = new `${meaning-cloud}` ({
     application_key: process.env.API_KEY
   });
 
 app.use(express.static('dist'))
 
-
-const app = express()
 
 app.use(express.static('dist'));
 app.use(cors());
